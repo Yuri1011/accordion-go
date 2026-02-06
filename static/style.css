@@ -1,0 +1,14 @@
+h1 {
+  color: #0d6efd;
+  margin-bottom: 0.3em;
+}
+
+hr {
+  margin-bottom: 2em;
+}
+
+/* Жирный и синий при открытии */
+.accordion-button.active {
+  font-weight: bold;
+  color: #198754;
+}
