@@ -16,7 +16,7 @@ async function loadAccordion() {
             ${item.title}
           </button>
         </h2>
-        <div id="collapse${item.id}" class="accordion-collapse collapse" aria-labelledby="heading${item.id}" data-bs-parent="#accordionExample">
+        <div id="collapse${item.id}" class="accordion-collapse collapse" aria-labelledby="heading${item.id}">
           <div class="accordion-body" style="white-space: pre-line;">
             ${item.content}
           </div>
